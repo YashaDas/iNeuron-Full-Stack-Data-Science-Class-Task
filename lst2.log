@@ -1,0 +1,72 @@
+INFO root 2022-07-03 01:58:15,483 This is a function to extract list entities from the dataset
+INFO root 2022-07-03 01:58:15,484 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:15,485 [1, 2, 3, 4]
+INFO root 2022-07-03 01:58:15,486 ['ineuron', 'data science']
+INFO root 2022-07-03 01:58:16,096 This is a function to extract dictionary elements from the dataset
+INFO root 2022-07-03 01:58:16,096 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:16,097 {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO root 2022-07-03 01:58:16,944 This is a function to extract tuple entities from the dataset
+INFO root 2022-07-03 01:58:16,944 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:16,945 (2, 3, 4, 5, 6)
+INFO root 2022-07-03 01:58:16,945 (3, 4, 5, 6, 7)
+INFO root 2022-07-03 01:58:17,532 This is a function to access numerical data in the list
+INFO root 2022-07-03 01:58:17,532 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:17,533 [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 23, 3, 6, 7, 8]
+INFO root 2022-07-03 01:58:18,262 This is a function that returns a summation of all the numerical data in the dataset
+INFO root 2022-07-03 01:58:18,263 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:18,264 [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 23, 3, 6, 7, 8]
+INFO root 2022-07-03 01:58:18,876 This is a function to extract only odd values in numeric data from the dataset
+INFO root 2022-07-03 01:58:18,877 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:18,878 [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 23, 3, 6, 7, 8]
+INFO root 2022-07-03 01:58:18,878 1
+INFO root 2022-07-03 01:58:18,878 3
+INFO root 2022-07-03 01:58:18,879 3
+INFO root 2022-07-03 01:58:18,879 5
+INFO root 2022-07-03 01:58:18,879 3
+INFO root 2022-07-03 01:58:18,880 5
+INFO root 2022-07-03 01:58:18,881 7
+INFO root 2022-07-03 01:58:18,882 45
+INFO root 2022-07-03 01:58:18,882 5
+INFO root 2022-07-03 01:58:18,882 23
+INFO root 2022-07-03 01:58:18,882 3
+INFO root 2022-07-03 01:58:18,883 7
+INFO root 2022-07-03 01:58:20,077 This is a function to extract numerical data in dictionary from the dataset
+INFO root 2022-07-03 01:58:20,078 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:20,078 [3, 6, 7, 8]
+INFO root 2022-07-03 01:58:20,611 This is a function to extract numerical data from the list present in the dataset
+INFO root 2022-07-03 01:58:20,611 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:20,612 [1, 2, 3, 4]
+INFO root 2022-07-03 01:58:21,207 This is a function that returns the number of keys in the dictionary of the dataset
+INFO root 2022-07-03 01:58:21,207 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:21,208 5
+INFO root 2022-07-03 01:58:22,123 This a function to filter out string type data from the dataset
+INFO root 2022-07-03 01:58:22,124 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:22,125 k1
+INFO root 2022-07-03 01:58:22,125 sudh
+INFO root 2022-07-03 01:58:22,126 k2
+INFO root 2022-07-03 01:58:22,126 ineuron
+INFO root 2022-07-03 01:58:22,126 k3
+INFO root 2022-07-03 01:58:22,126 kumar
+INFO root 2022-07-03 01:58:22,127 ineuron
+INFO root 2022-07-03 01:58:22,127 data science
+INFO root 2022-07-03 01:58:22,744 This is a function to multiply all the numerical data present in the dataset
+INFO root 2022-07-03 01:58:22,744 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:22,745 24
+INFO root 2022-07-03 01:58:22,745 720
+INFO root 2022-07-03 01:58:22,746 2520
+INFO root 2022-07-03 01:58:22,746 20700
+INFO root 2022-07-03 01:58:22,747 1008
+INFO root 2022-07-03 01:58:22,747 1
+INFO root 2022-07-03 01:58:23,773 This function unwraps the dataset into a flat list
+INFO root 2022-07-03 01:58:23,773 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:23,774 [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 23, 'k1', 'sudh', 'k2', 'ineuron', 'k3', 'kumar', 3, 6, 7, 8, 'ineuron', 'data science']
+INFO root 2022-07-03 01:58:25,002 This is a function to extract alpha numerical data from the dataset
+INFO root 2022-07-03 01:58:25,003 [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+INFO root 2022-07-03 01:58:25,003 [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 23, 'k1', 'sudh', 'k2', 'ineuron', 'k3', 'kumar', 3, 6, 7, 8, 'ineuron', 'data science']
+INFO root 2022-07-03 01:58:25,003 k1
+INFO root 2022-07-03 01:58:25,003 sudh
+INFO root 2022-07-03 01:58:25,004 k2
+INFO root 2022-07-03 01:58:25,004 ineuron
+INFO root 2022-07-03 01:58:25,006 k3
+INFO root 2022-07-03 01:58:25,007 kumar
+INFO root 2022-07-03 01:58:25,007 ineuron
